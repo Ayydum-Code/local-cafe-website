@@ -257,7 +257,7 @@ body {
   display: flex;
   align-items: center;
   background-color: var(--espresso);
-  background-image: url(/local-cafe/Coffee2.jpg);
+  background-image: url(Coffee2.jpg);
   background-size: cover;
   background-position: center;
   overflow: hidden;
