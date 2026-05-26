@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Coffee Compendium Moorabbin. Find our address, phone, email, opening hours and embedded map. Send us a message using our contact form.">
+  <meta name="keywords" content="Coffee Compendium contact, Moorabbin café address, café location, café phone number">
+  <meta property="og:title" content="Contact - Coffee Compendium Moorabbin">
+  <meta property="og:description" content="Visit us at 123 Station Street, Moorabbin. Call, email, or send us a message.">
+  <meta property="og:type" content="website">
+  <title>Contact - Coffee Compendium Moorabbin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+
+      <a href="index.html" class="nav-logo" aria-label="Coffee Compendium - go to homepage">
+        <span class="logo-mark" aria-hidden="true">☕</span>
+        <span class="logo-text">Coffee Compendium</span>
+      </a>
+
+      <button class="nav-toggle"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="nav-links"
+              id="nav-toggle">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li role="listitem"><a href="index.html" class="nav-link">Home</a></li>
+        <li role="listitem"><a href="menu.html" class="nav-link">Menu</a></li>
+        <li role="listitem"><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-banner" aria-labelledby="contact-page-heading">
+      <span class="page-banner-label">We'd love to hear from you</span>
+      <h1 id="contact-page-heading" class="page-banner-title">Get in Touch</h1>
+    </section>
+
+    <section class="contact-body" aria-labelledby="contact-body-heading">
+      <div class="container">
+        <h2 id="contact-body-heading" class="sr-only">Contact details and enquiry form</h2>
+
+        <div class="contact-layout">
+
+          <!-- LEFT: Contact info + Form -->
+          <div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-label">Address</span>
+              <address class="contact-detail-value" style="font-style:normal;">
+                123 Station Street, Moorabbin VIC 3189
+              </address>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-label">Phone</span>
+              <p class="contact-detail-value">
+                <a href="tel:+61398765432">(03) 9876 5432</a>
+              </p>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-label">Email</span>
+              <p class="contact-detail-value">
+                <a href="mailto:noreply@coffeecompendium.com.au">noreply@coffeecompendium.com.au</a>
+              </p>
+            </div>
+
+            <form class="contact-form"
+                  action="#"
+                  method="post"
+                  novalidate
+                  aria-labelledby="form-heading">
+
+              <h2 id="form-heading" class="contact-form-title">Send us a message</h2>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">
+                    Full Name <abbr title="required" aria-label="required">*</abbr>
+                  </label>
+                  <input class="form-input"
+                         type="text"
+                         id="name"
+                         name="name"
+                         placeholder="Jane Smith"
+                         required
+                         autocomplete="name"
+                         aria-required="true">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="email">
+                    Email Address <abbr title="required" aria-label="required">*</abbr>
+                  </label>
+                  <input class="form-input"
+                         type="email"
+                         id="email"
+                         name="email"
+                         placeholder="jane@example.com"
+                         required
+                         autocomplete="email"
+                         aria-required="true">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="phone">Phone Number</label>
+                  <input class="form-input"
+                         type="tel"
+                         id="phone"
+                         name="phone"
+                         placeholder="04xx xxx xxx"
+                         autocomplete="tel">
+                </div>
+
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">
+                  Message <abbr title="required" aria-label="required">*</abbr>
+                </label>
+                <textarea class="form-textarea"
+                          id="message"
+                          name="message"
+                          placeholder="Write your message here…"
+                          required
+                          aria-required="true"></textarea>
+              </div>
+
+              <div>
+                <button type="submit"
+                        class="btn btn-primary"
+                        aria-label="Submit your enquiry to Coffee Compendium">
+                  Send Message →
+                </button>
+              </div>
+
+            </form>
+
+          </div><!-- / left column -->
+
+          <!-- RIGHT: Hours only -->
+          <div class="contact-map-side" aria-label="Opening hours">
+
+            <div class="contact-hours-card" aria-labelledby="hours-card-heading">
+              <h3 id="hours-card-heading">Opening Hours</h3>
+
+              <dl aria-label="Opening hours by day">
+                <div class="hours-row">
+                  <span>Monday – Friday</span>
+                  <span>7:00 am – 9:00 pm</span>
+                </div>
+                <div class="hours-row">
+                  <span>Saturday</span>
+                  <span>8:00 am – 9:00 pm</span>
+                </div>
+                <div class="hours-row">
+                  <span>Sunday</span>
+                  <span>8:00 am – 6:00 pm</span>
+                </div>
+                <div class="hours-row">
+                  <span>Public Holidays</span>
+                  <span>Hours vary</span>
+                </div>
+              </dl>
+
+              
+            </div>
+            <img src="/local-cafe/Capture.PNG"
+                 alt="Direction to the cafe location map"
+                 style="width:100%; height:400px; object-fit:cover; border-radius:10px; margin-top:1.5rem;">
+
+          </div><!-- / right column -->
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <a href="index.html" class="footer-logo" aria-label="Coffee Compendium – Home">Coffee Compendium</a>
+          <p class="footer-tagline">Moorabbin's neighbourhood café</p>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <span class="footer-col-title">Navigate</span>
+          <ul role="list">
+            <li role="listitem"><a href="index.html">Home</a></li>
+            <li role="listitem"><a href="menu.html">Menu</a></li>
+            <li role="listitem"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <span class="footer-col-title">Find Us</span>
+          <address>
+            <p>123 Station Street<br>Moorabbin VIC 3189</p>
+            <p><a href="tel:+61398765432">(03) 9876 5432</a></p>
+            <p><a href="mailto:noreply@coffeecompendium.com.au">noreply@coffeecompendium.com.au</a></p>
+          </address>
+        </div>
+
+        <div>
+          <span class="footer-col-title">Hours</span>
+          <p style="font-size:.9rem; color:rgba(250,246,239,.55); line-height:1.9;">
+            Mon – Fri: 7 am – 9 pm<br>
+            Saturday: 8 am – 9 pm<br>
+            Sunday: 8 am – 6 pm
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Coffee Compendium</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!expanded));
+      this.setAttribute('aria-label', expanded ? 'Open navigation menu' : 'Close navigation menu');
+      navLinks.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('.nav-link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the Coffee Compendium menu — specialty espresso drinks, seasonal breakfast and all-day food, teas and more.">
+  <meta name="keywords" content="café menu, coffee menu, breakfast Moorabbin, brunch, specialty coffee menu">
+  <meta property="og:title" content="Menu - Coffee Compendium Moorabbin">
+  <meta property="og:description" content="Specialty coffee, seasonal food and sweet treats. View or download the Coffee Compendium menu.">
+  <meta property="og:type" content="website">
+  <title>Menu - Coffee Compendium Moorabbin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+
+      <a href="index.html" class="nav-logo" aria-label="Coffee Compendium - go to homepage">
+        <span class="logo-mark" aria-hidden="true">☕</span>
+        <span class="logo-text">Coffee Compendium</span>
+      </a>
+
+      <button class="nav-toggle"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="nav-links"
+              id="nav-toggle">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li role="listitem"><a href="index.html" class="nav-link">Home</a></li>
+        <li role="listitem"><a href="menu.html" class="nav-link active" aria-current="page">Menu</a></li>
+        <li role="listitem"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-banner" aria-labelledby="menu-page-heading">
+      <span class="page-banner-label">What we serve</span>
+      <h1 id="menu-page-heading" class="page-banner-title">Our Menu</h1>
+    </section>
+
+    <section class="menu-body" aria-labelledby="menu-body-heading">
+      <div class="container">
+        <h2 id="menu-body-heading" class="sr-only">Full menu listing</h2>
+
+        <div class="menu-layout">
+
+          <!-- LEFT: Menu categories -->
+          <div class="menu-categories">
+
+            <div class="menu-category">
+              <h3 class="menu-cat-title">Coffee</h3>
+              <ul class="menu-items" role="list" aria-label="Coffee menu items">
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Flat White</p>
+                    <p class="menu-item-desc">Double ristretto, silky micro-foam</p>
+                  </div>
+                  <span class="menu-item-price">$5.50</span>
+                </li>
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Cappuccino</p>
+                    <p class="menu-item-desc">Espresso, steamed milk, thick froth</p>
+                  </div>
+                  <span class="menu-item-price">$5.50</span>
+                </li>
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Mocha</p>
+                    <p class="menu-item-desc">Espresso, house-made chocolate, steamed milk</p>
+                  </div>
+                  <span class="menu-item-price">$6.00</span>
+                </li>
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Iced Latte</p>
+                    <p class="menu-item-desc">Double espresso over ice and cold milk</p>
+                  </div>
+                  <span class="menu-item-price">$6.50</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="menu-category">
+              <h3 class="menu-cat-title">Breakfast</h3>
+              <ul class="menu-items" role="list" aria-label="Breakfast menu items">
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Big Breakfast</p>
+                    <p class="menu-item-desc">Eggs your way, bacon, mushroom, roast tomato, toast</p>
+                  </div>
+                  <span class="menu-item-price">$24.00</span>
+                </li>
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Smashed Avocado</p>
+                    <p class="menu-item-desc">Sourdough, whipped feta, dukkah, poached eggs</p>
+                  </div>
+                  <span class="menu-item-price">$19.00</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="menu-category">
+              <h3 class="menu-cat-title">All Day</h3>
+              <ul class="menu-items" role="list" aria-label="All-day food menu items">
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Smashed Eggs on Toast</p>
+                    <p class="menu-item-desc">Sourdough, pickled jalapeño, manchego, dukkah</p>
+                  </div>
+                  <span class="menu-item-price">$18.00</span>
+                </li>
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Banana Bread</p>
+                    <p class="menu-item-desc">House-baked, whipped butter, optional honey</p>
+                  </div>
+                  <span class="menu-item-price">$7.50</span>
+                </li>
+                <li class="menu-item" role="listitem">
+                  <div class="menu-item-info">
+                    <p class="menu-item-name">Croissant</p>
+                    <p class="menu-item-desc">Plain or almond — baked fresh daily</p>
+                  </div>
+                  <span class="menu-item-price">$6.50</span>
+                </li>
+              </ul>
+            </div>
+
+          </div><!-- / .menu-categories -->
+
+          <!-- RIGHT: Photo -->
+          <aside class="menu-sidebar" aria-label="Menu photo">
+
+            <div class="menu-photo-wrap">
+              <img src="/local-cafe/Coffee1.jpg"
+                   alt="Coffee beans falling into a coffee cup"
+                   style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <a href="#" class="btn btn-primary" style="text-align:center;">Download Menu ↓</a>
+
+          </aside>
+
+        </div><!-- / .menu-layout -->
+      </div><!-- / .container -->
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <a href="index.html" class="footer-logo" aria-label="Coffee Compendium - Home">Coffee Compendium</a>
+          <p class="footer-tagline">Moorabbin's neighbourhood café</p>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <span class="footer-col-title">Navigate</span>
+          <ul role="list">
+            <li role="listitem"><a href="index.html">Home</a></li>
+            <li role="listitem"><a href="menu.html">Menu</a></li>
+            <li role="listitem"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <span class="footer-col-title">Find Us</span>
+          <address>
+            <p>123 Station Street<br>Moorabbin VIC 3189</p>
+            <p><a href="tel:+61398765432">(03) 9876 5432</a></p>
+            <p><a href="mailto:noreply@coffeecompendium.com.au">noreply@coffeecompendium.com.au</a></p>
+          </address>
+        </div>
+
+        <div>
+          <span class="footer-col-title">Hours</span>
+          <p style="font-size:.9rem; color:rgba(250,246,239,.55); line-height:1.9;">
+            Mon - Fri: 7 am - 9 pm<br>
+            Saturday: 8 am - 9 pm<br>
+            Sunday: 8 am - 6 pm
+          </p>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Coffee Compendium.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!expanded));
+      this.setAttribute('aria-label', expanded ? 'Open navigation menu' : 'Close navigation menu');
+      navLinks.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('.nav-link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Open navigation menu');
+      });
+    });
+  </script>
+
+</body>
+</html>

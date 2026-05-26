@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta
+      name="description"
+      content="Coffee Compendium – A cosy neighbourhood café in Moorabbin serving specialty coffee and wholesome seasonal food. Open 7 days."
+    >
+    <meta
+      name="keywords"
+      content="café, coffee, Moorabbin, specialty coffee, breakfast, brunch, local café"
+    >
+    <meta
+      property="og:title"
+      content="Coffee Compendium – Moorabbin's Neighbourhood Café"
+    >
+    <meta
+      property="og:description"
+      content="Specialty coffee, wholesome food, and a warm welcome every day in Moorabbin, VIC."
+    >
+    <meta property="og:type" content="website" >
+    <title>Coffee Compendium - Moorabbin's Neighbourhood Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a
+          href="index.html"
+          class="nav-logo"
+          aria-label="Coffee Compendium – go to homepage"
+        >
+          <span class="logo-mark" aria-hidden="true">☕</span>
+          <span class="logo-text">Coffee Compendium</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+          id="nav-toggle"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a href="index.html" class="nav-link active" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div
+          class="hero-content"
+          style="
+            background: rgba(26, 17, 10, 1);
+            border: 1px solid rgba(212, 168, 112, 0.25);
+            border-radius: 10px;
+            max-width: 600px;
+          "
+        >
+          <p class="hero-eyebrow">Moorabbin's neighbourhood café</p>
+          <h1 id="hero-heading" class="hero-heading">Coffee Compendium</h1>
+          <p class="hero-sub">
+            Specialty coffee, wholesome food, and a warm welcome — every single
+            day in the heart of Moorabbin.
+          </p>
+          <div class="hero-actions">
+            <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+            <a href="contact.html" class="btn btn-outline-light">Find Us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" aria-labelledby="features-heading">
+        <div class="container">
+          <h2 id="features-heading" class="sr-only">
+            Why visit Coffee Compendium
+          </h2>
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">☕</div>
+              <h3 class="feature-title">Specialty Coffee</h3>
+              <p class="feature-text">
+                Single-origin beans, expertly roasted and carefully extracted by
+                our trained baristas. Every cup, made with precision.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🌿</div>
+              <h3 class="feature-title">Seasonal Food</h3>
+              <p class="feature-text">
+                Our kitchen menu changes with the seasons, celebrating the best
+                of local Victorian produce and wholesome ingredients.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">🏠</div>
+              <h3 class="feature-title">Welcoming Space</h3>
+              <p class="feature-text">
+                Cosy seating, free Wi-Fi, and a friendly team — whether you're
+                working, catching up, or just taking a moment.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a
+              href="index.html"
+              class="footer-logo"
+              aria-label="Coffee Compendium – Home"
+              >Coffee Compendium</a
+            >
+            <p class="footer-tagline">Moorabbin's neighbourhood café</p>
+          </div>
+ 
+          <nav aria-label="Footer navigation">
+            <span class="footer-col-title">Navigate</span>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <span class="footer-col-title">Find Us</span>
+            <address>
+              <p>123 Station Street<br>Moorabbin VIC 3189</p>
+              <p><a href="tel:+61398765432">(03) 9876 5432</a></p>
+              <p>
+                <a href="mailto:noreply@coffeecompendium.com.au"
+                  >noreply@coffeecompendium.com.au</a
+                >
+              </p>
+            </address>
+          </div>
+
+          <div>
+            <span class="footer-col-title">Hours</span>
+            <p
+              style="
+                font-size: 0.9rem;
+                color: rgba(250, 246, 239, 0.55);
+                line-height: 1.9;
+              "
+            >
+              Mon - Fri: 7 am - 9 pm<br >
+              Saturday: 8 am - 9 pm<br >
+              Sunday: 8 am - 6 pm
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Coffee Compendium. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById("nav-toggle");
+      const navLinks = document.getElementById("nav-links");
+      toggle.addEventListener("click", function () {
+        const expanded = this.getAttribute("aria-expanded") === "true";
+        this.setAttribute("aria-expanded", String(!expanded));
+        this.setAttribute(
+          "aria-label",
+          expanded ? "Open navigation menu" : "Close navigation menu",
+        );
+        navLinks.classList.toggle("open");
+      });
+      navLinks.querySelectorAll(".nav-link").forEach(function (link) {
+        link.addEventListener("click", function () {
+          navLinks.classList.remove("open");
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "Open navigation menu");
+        });
+      });
+    </script>
+  </body>
+</html>
